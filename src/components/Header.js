@@ -41,6 +41,8 @@ function Header() {
         {/* Right */}
         <div className="text-white flex items-center text-xs space-x-6 mx-6 whitespace-nowrap">
           <div onClick={!session ? signIn : signOut} className="link">
+            {" "}
+            Hello, Banksy!
             <p className="hover:underline"></p>
             <p className="font-extrabold md:text-sm">Account & Lists </p>
           </div>
